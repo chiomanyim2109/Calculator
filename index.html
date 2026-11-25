@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <h1>Calculator</h1>
+    <p class="subtitle">A simple calculator</p>
+
+    <div class="developer-info">
+      <p><strong>Developer:</strong> ADEKOYA FARUK AREMOLA</p>
+      <p><strong>Matric No:</strong> 240404010070</p>
+      <p><strong>Group:</strong> VPE Group 6</p>
+    </div>
+
+    <div class="calculator">
+      <div class="display">
+        <div id="expression" class="expression"></div>
+        <div id="current" class="current" aria-live="polite">0</div>
+      </div>
+
+      <div class="keys">
+        <button type="button" class="key fn" data-action="clear">AC</button>
+        <button type="button" class="key fn" data-action="delete">DEL</button>
+        <button type="button" class="key fn" data-action="percent">%</button>
+        <button type="button" class="key op" data-op="divide">&divide;</button>
+
+        <button type="button" class="key" data-digit="7">7</button>
+        <button type="button" class="key" data-digit="8">8</button>
+        <button type="button" class="key" data-digit="9">9</button>
+        <button type="button" class="key op" data-op="multiply">&times;</button>
+
+        <button type="button" class="key" data-digit="4">4</button>
+        <button type="button" class="key" data-digit="5">5</button>
+        <button type="button" class="key" data-digit="6">6</button>
+        <button type="button" class="key op" data-op="subtract">&minus;</button>
+
+        <button type="button" class="key" data-digit="1">1</button>
+        <button type="button" class="key" data-digit="2">2</button>
+        <button type="button" class="key" data-digit="3">3</button>
+        <button type="button" class="key op" data-op="add">+</button>
+
+        <button type="button" class="key zero" data-digit="0">0</button>
+        <button type="button" class="key" data-action="decimal">.</button>
+        <button type="button" class="key op" data-action="equals">=</button>
+      </div>
+    </div>
+
+    <p class="note">Tip: you can also use your keyboard.</p>
+  </main>
+
+  <footer>
+    <p>Developed by ADEKOYA FARUK AREMOLA | Matric No: 240404010070 | VPE Group 6</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
